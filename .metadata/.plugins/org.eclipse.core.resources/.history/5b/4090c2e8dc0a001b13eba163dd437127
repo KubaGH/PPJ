@@ -1,0 +1,27 @@
+package ppj;
+/**
+ * The TrafficLight class models the color of a traffic light.
+ * @author U¿ytkownik WEiTI
+ *@version 2019
+ */
+public class TrafficLight extends Light implements TraficColor {
+
+	/**
+	 * Constructor for objects of class TrafficLight.
+	 * Pass in "green", "yellow" or "red" to
+	 * represent the color of the TrafficLight object.
+	 * 
+	 * @param color the initial color of the TrafficLight object
+	 */
+public TrafficLight(String color) {
+	setColor(color);
+}
+/**
+ * The setColor(String color) is a mutator method
+ * for the color variable.
+ * 
+ * @param color the value used to initialize the color variable
+ */
+public void setColor(String color) {
+	this.color = color;
+}

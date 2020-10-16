@@ -1,0 +1,26 @@
+package ppj;
+/**
+ * The TrafficLightApp class exercices the TrafficLight Class.
+ * @author U¿ytkownik WEiTI
+ *@version 2019
+ */
+public class TrafficLightApp  {
+	public static void main (String[] args) {
+		TrafficLight light1 = new TrafficLight("green");
+		TrafficLight	 light2 = new TrafficLight("red");
+		TrafficLight light3 = new TrafficLight("yellow");
+		
+		System.out.println("The color of light2 is "+light1.getColor());
+		light1.yellow();
+		System.out.println("The color of light1 is "+light1.getColor());
+		light1.green();
+		System.out.println("The color of light3 is "+light2.getColor());
+		light1.yellow();
+		System.out.println("The color of light2 is "+light2.getColor());
+		
+		light2.setColor("green");
+		System.out.print("The color of light2 is " + light2.getColor());
+		
+		
+	}
+}

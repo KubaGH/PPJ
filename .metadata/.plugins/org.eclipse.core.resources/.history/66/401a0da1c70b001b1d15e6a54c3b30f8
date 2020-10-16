@@ -1,0 +1,12 @@
+package games;
+
+public abstract class Level {
+protected String levelNumber;
+
+public String getLevel() {
+	return levelNumber;
+};
+
+protected abstract void setLevel (String lelvelNumber);
+
+}

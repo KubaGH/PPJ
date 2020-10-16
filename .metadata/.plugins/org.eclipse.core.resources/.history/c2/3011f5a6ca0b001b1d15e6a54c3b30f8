@@ -1,0 +1,12 @@
+package games;
+
+public abstract class Level {
+protected int levelNumber;
+
+public int getLevel() {
+	return levelNumber;
+};
+
+protected abstract void setLevel (int levelNumber);
+
+}

@@ -1,0 +1,90 @@
+package games;
+
+public class GamesLevel extends Level implements LevelNumber {
+
+	public GamesLevel(int levelNumber, boolean isCompleted) {
+		setLevel(levelNumber, isCompleted);
+	}
+
+	public void setLevel(int levelNumber, boolean isCompleted) {
+		this.levelNumber = levelNumber;
+	}
+
+	public void one() {
+		if (getLevel() == 1) {
+			setLevel(1, true);
+
+			System.out.println("The level " + getLevel() + "is completed.");
+
+			setLevel(2, false);
+		} else
+
+		{
+			System.out.println("Yours actuall level is " + getLevel());
+		}
+	}
+
+	public void two() {
+
+		if (getLevel() == 2) {
+			setLevel(2, true);
+
+			System.out.println("The level " + getLevel() + "is completed.");
+
+			setLevel(3, false);
+
+		} else
+
+		{
+			System.out.println("Yours actuall level is " + getLevel() + "Finish it before starting next level!");
+		}
+	}
+
+	public void three() {
+		if (getLevel() == 3) {
+			setLevel(3, true);
+
+			System.out.println("The level " + getLevel() + "is completed.");
+
+			setLevel(4, false);
+
+		} else
+
+		{
+			System.out.println("Yours actuall level is " + getLevel() + "Finish it before starting next level!");
+		}
+
+	}
+
+	public void four() {
+		if (getLevel() == 4) {
+			setLevel(4, true);
+
+			System.out.println("The level " + getLevel() + "is completed.");
+
+			setLevel(5, false);
+
+		} else
+
+		{
+			System.out.println("Yours actuall level is " + getLevel() + "Finish it before starting next level!");
+		}
+
+	}
+
+	public void five() {
+		if (getLevel() == 5) {
+			setLevel(5, true);
+
+			System.out.println("The level " + getLevel() + "is completed." +"\n"+
+					"Congratulations you won!");
+
+		} else
+
+		{
+			System.out.println("Yours actuall level is " + getLevel()
+					+ "Finish it before starting next level!");
+		}
+
+	}
+}

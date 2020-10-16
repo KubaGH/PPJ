@@ -1,0 +1,14 @@
+package games;
+
+public class GamesLevelApp {
+public static void main (String[] args) {
+	GamesLevel level1 = new GamesLevel(1, false);
+	GamesLevel level2 = new GamesLevel(1, true);
+	
+	
+	System.out.println("Your current level is "+level1.getLevel());
+	level1.two();
+	System.out.println("Your current level is "+level2.getLevel());
+	level2.two();
+}
+}
