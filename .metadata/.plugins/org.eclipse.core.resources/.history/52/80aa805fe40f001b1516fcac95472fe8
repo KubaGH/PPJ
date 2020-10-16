@@ -17,9 +17,8 @@ public class GamesLevel extends Level implements LevelNumber {
 			System.out.println("The level " + getLevel() + " is completed.");
 
 			setLevel(2, false);
-		} else if (getLevel()>1){
-			System.out.println("You already completed this level. Your current level is " + getLevel());
-		}else
+		} else
+
 		{
 			System.out.println("Yours current level is " + getLevel());
 		}
@@ -34,9 +33,7 @@ public class GamesLevel extends Level implements LevelNumber {
 
 			setLevel(3, false);
 
-		} else if (getLevel()>2){
-			System.out.println("You already completed this level. Your current level is " + getLevel());
-		}else
+		} else
 
 		{
 			System.out.println("Yours current level is " + getLevel() + ". Finish it before starting next level!");
@@ -56,7 +53,7 @@ public class GamesLevel extends Level implements LevelNumber {
 		}else
 
 		{
-			System.out.println("Yours current level is " + getLevel() + ". Finish it before starting next level!");
+			System.out.println("Yours current level is " + getLevel() + "Finish it before starting next level!");
 		}
 
 	}
@@ -69,12 +66,10 @@ public class GamesLevel extends Level implements LevelNumber {
 
 			setLevel(5, false);
 
-		} else if (getLevel()>4){
-			System.out.println("You already completed this level. Your current level is " + getLevel());
-		}else
+		} else
 
 		{
-			System.out.println("Yours current level is " + getLevel() + ". Finish it before starting next level!");
+			System.out.println("Yours current level is " + getLevel() + "Finish it before starting next level!");
 		}
 
 	}
@@ -90,7 +85,7 @@ public class GamesLevel extends Level implements LevelNumber {
 
 		{
 			System.out.println("Yours current level is " + getLevel()
-					+ ". Finish it before starting next level!");
+					+ "Finish it before starting next level!");
 		}
 
 	}
